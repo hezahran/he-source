@@ -1,0 +1,29 @@
+/*-- main intro
+ ------------------------------------------------------------*/
+.intro {
+	display: table;
+	height: 100%;
+	width: 100%;
+	min-height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	.container {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+	}
+	svg {
+		height: 180px;
+		width: 180px;
+		path {
+			fill: currentColor;
+		}
+	}
+	small {
+		color: $brand-primary-color-shadow;
+	}
+	span {
+		display: block;
+		color: $brand-primary-color;
+	}
+}

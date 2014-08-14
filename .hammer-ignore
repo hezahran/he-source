@@ -1,0 +1,7 @@
+*.sublime-project
+*.sublime-workspace
+/Build
+.DS_Store
+.sass-cache
+*.psd
+*.ai

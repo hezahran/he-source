@@ -1,0 +1,42 @@
+/*-- basic styles
+ ------------------------------------------------------------*/
+html,
+body {
+	font-family: $brand-font-sans-serif;
+	color: $brand-secondary-color;
+	font-weight: 300;
+	height: 100%;
+	background: $brand-primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $brand-default-color;
+	font-family: $brand-font-serif;
+	font-weight: 500
+}
+
+p {
+	color: $brand-secondary-color;
+}
+a, .btn-link {
+	color: $brand-default-color;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $brand-default-color-shadow;
+	}
+}
+
+em {
+		font: {
+			family: $brand-font-cursive;
+			style: normal;
+			weight: bold;
+		}
+		color: $brand-secondary-color;
+	}

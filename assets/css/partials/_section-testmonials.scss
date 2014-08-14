@@ -1,0 +1,38 @@
+/*-- testmonials section elements
+ ------------------------------------------------------------*/
+.testmonails {
+	.carousel-indicators {
+		bottom: -30px;
+		li {
+			border-color: $brand-default-color-shadow;
+			&.active {
+				background-color: $brand-default-color;
+			}
+		}
+	}
+	blockquote {
+		border-left-color: $brand-primary-color;
+		p{
+			font-size: 1em;
+		}
+	}
+	.carousel-control {
+		opacity: 1;
+		&.left,
+		&.right {
+			background-image: none;
+		}
+		.glyphicon-chevron-right,
+		.icon-next,
+		.glyphicon-chevron-left,
+		.icon-prev {
+			margin-right: -50px;
+			color: $brand-default-color;
+			text-shadow: 0 0;
+		}
+		.glyphicon-chevron-left,
+		.icon-prev {
+			margin-left: -50px;
+		}
+	}
+}
