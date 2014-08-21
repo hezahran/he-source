@@ -1,66 +1,61 @@
 /*-- scaffolding
  ------------------------------------------------------------*/
-/* buttons */
+ .rounded {
+  @include border-radius(15px);
+ }
+ .whitesmoke {
+ 	background: {
+ 		color: $brand-whitesmoke;
+ 	}
+  text-shadow: 1px 1px 1px $brand-whitesmoke;
+}
+.alizarin {
+	color: $brand-alizarin;
+}
+.midnightblue {
+  background: {
+    color: $brand-midnightblue;
+  }
+}
+.cursive {
+	font: {
+		family: $brand-cursive;
+		style: normal;
+	}
+	color: $brand-wetasphalt;
+}
+
 .btn-outline {
-  color: $brand-primary-color-shadow;
+  color: $brand-greenhaze;
   background-color: transparent;
-  border-color: $brand-primary-color-shadow;
+  border-color: $brand-greenhaze;
   &:hover,
   &:focus,
-  &:active {
-  color: $brand-default-color;
-  background-color: $brand-primary-color-shadow;
-  border-color: $brand-primary-color-shadow;
+  &:active,
+  &.active {
+  color: $brand-whitesmoke;
+  background-color: $brand-greenhaze;
+  border-color: $brand-greenhaze;
   }
 }
-
 .btn-brand {
-  color: $brand-primary-color;
-  background-color: $brand-default-color;
-  border-color: $brand-default-color;
+  color: $brand-white;
+  background-color: $brand-greenhaze;
+  border-color: $brand-greenhaze;
   &:hover,
   &:focus,
   &:active {
-  color: $brand-primary-color;
-  background-color: $brand-default-color-shadow;
-  border-color: $brand-default-color-shadow;
+  color: $brand-white;
+  background-color: $brand-midnightblue;
+  border-color: $brand-midnightblue;
   }
 }
-
-.btn-secondary {
-  color: $brand-default-color;
-  background-color: $brand-primary-color-shadow;
-  border-color: $brand-primary-color-shadow;
-  &:hover,
-  &:focus,
-  &:active {
-  color: $brand-primary-color;
-  background-color: $brand-assistive-color;
-  border-color: $brand-assistive-color;
-  }
-}
-
-/* jumbotron colors */
-.default {
-	background: $brand-primary-color url(bg_pixels-light) no-repeat center center;
-	color: $brand-secondary-color;
-	.page-header {
-		border-color: $brand-primary-color-shadow;
+.btn-link-brand {
+	color: $brand-greenhaze;
+	background: transparent;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $brand-observatory;
 	}
 }
-.inverse {
-  background: $brand-primary-color-shadow url(bg_pixels-light-shadow) no-repeat center center;
-  color: $brand-secondary-color-shadow;
-  .page-header {
-    border-color: $brand-primary-color;
-  }
-}
-.green {
-	background: $brand-default-color url(bg_pixels-green) no-repeat center center;
-	color: $brand-primary-color-shadow;
-	p {
-		color: $brand-primary-color-shadow;
-
-	}
-}
-

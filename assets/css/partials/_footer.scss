@@ -1,0 +1,36 @@
+/*-- footer elements
+ ------------------------------------------------------------*/
+footer {
+  color: $brand-whitesmoke;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.2);
+  a:hover {
+    color: $brand-whitesmoke;
+  }
+  .social {
+    padding-bottom: 20px;
+    a {
+      color: $brand-wetasphalt;
+      
+      &:hover.facebook {
+        color: #3b5998;
+      }
+      &:hover.twitter {
+        color: #00aced;
+      }
+      &:hover.linkedin {
+        color: #007bb6;
+      }
+      &:hover.instagram {
+        color: #517fa4;
+      }
+      &:hover.github {
+        color: #4183C4;
+      }
+      &:hover.behance {
+        color: #1769FF;
+      }
+    }
+  }
+}

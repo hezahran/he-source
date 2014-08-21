@@ -1,11 +1,12 @@
-/*-- macyfiny bootstrap elements
+/*-- macyfing bootstrap elements
  ------------------------------------------------------------*/
-.jumbotron,
-.navbar,
-blockquote  {
-	margin-bottom: 0px;
-}
 .jumbotron {
-	padding-top:100px;
-	padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+.btn {
+  font-weight: 300;
+  text-shadow: 0 0;
+  &.active {
+    box-shadow: 0 0;
+  }
 }

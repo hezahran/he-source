@@ -1,42 +1,38 @@
 /*-- basic styles
  ------------------------------------------------------------*/
-html,
+html, body {
+  height: 100%;
+  width: 100%;
+  background: $brand-white;
+  font-family: $brand-paragraphs;
+  font-weight: 300;
+  color: $brand-wetasphalt;
+}
 body {
-	font-family: $brand-font-sans-serif;
-	color: $brand-secondary-color;
-	font-weight: 300;
-	height: 100%;
-	background: $brand-primary-color;
+  padding-top: 50px;
 }
+h1, h2, h3, h4, h5, h6 {
+  font: {
+    family: $brand-headings;
+    weight: 300;
+  }
+  color: $brand-greenhaze;
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: $brand-default-color;
-	font-family: $brand-font-serif;
-	font-weight: 500
 }
-
-p {
-	color: $brand-secondary-color;
+main, section {
+	box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.1);
 }
-a, .btn-link {
-	color: $brand-default-color;
-	&:hover,
-	&:focus,
-	&:active {
-		color: $brand-default-color-shadow;
-	}
+a {
+  color: $brand-greenhaze;
+  &:hover {
+    color: $brand-midnightblue;
+  }
 }
-
-em {
-		font: {
-			family: $brand-font-cursive;
-			style: normal;
-			weight: bold;
-		}
-		color: $brand-secondary-color;
-	}
+blockquote {
+  margin-bottom: 0px;
+  min-height: 250px;
+  footer {
+    padding: 0px;
+    text-shadow: 0 0;
+  }
+}
