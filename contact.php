@@ -8,7 +8,7 @@ $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'p3plcpnl0420.prod.phx3.secureserver.net;mail.hezahran.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'noreply@hezahran.com';                 // SMTP username
-$mail->Password = 'hiaKfPmOCvN8';                           // SMTP password
+$mail->Password = 'secretpassword';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 
 // check if fields passed are empty

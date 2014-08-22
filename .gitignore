@@ -1,6 +1,5 @@
 *.sublime-project
 *.sublime-workspace
 /Build
-contact.php
 .DS_Store
 .sass-cache
