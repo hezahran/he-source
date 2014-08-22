@@ -4,3 +4,8 @@ contact.php
 /Build
 .DS_Store
 .sass-cache
+README.md
+class.phpmailer.php
+class.smtp.php
+PHPMailerAutoload.php
+LICENSE
