@@ -1,7 +1,6 @@
 *.sublime-project
 *.sublime-workspace
+contact.php
 /Build
 .DS_Store
 .sass-cache
-*.psd
-*.ai
