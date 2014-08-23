@@ -19,10 +19,12 @@ $.stellar({
 $('#main-navbar').singlePageNav({
   offset: $('#main-navbar').outerHeight(),
   updateHash: true,
+  filter: ':not(.external)',
 });
 $('.more-info').singlePageNav({
   offset: $('#main-navbar').outerHeight(),
   updateHash: true,
+  filter: ':not(.external)',
 });
 
 //  ----------------------------------------------------------
