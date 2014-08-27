@@ -6,7 +6,7 @@ This repo contains all source files for Hashem Zahran which is based on:
 * [SCSS](http://sass-lang.com/) principles and splited layout/scss subfiles.
 * [Hammer](http://hammerformac.com/) Template feature which helps creating html files out of multiple assets via "include rule".
 
----- 
+--- 
 
 ## Credits
 
