@@ -1,0 +1,61 @@
+/*-- scaffolding
+ ------------------------------------------------------------*/
+ .rounded {
+  @include border-radius(15px);
+ }
+ .whitesmoke {
+ 	background: {
+ 		color: $brand-whitesmoke;
+ 	}
+  text-shadow: 1px 1px 1px $brand-whitesmoke;
+}
+.alizarin {
+	color: $brand-alizarin;
+}
+.midnightblue {
+  background: {
+    color: $brand-midnightblue;
+  }
+}
+.cursive {
+	font: {
+		family: $brand-cursive;
+		style: normal;
+	}
+	color: $brand-wetasphalt;
+}
+
+.btn-outline {
+  color: $brand-greenhaze;
+  background-color: transparent;
+  border-color: $brand-greenhaze;
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+  color: $brand-whitesmoke;
+  background-color: $brand-greenhaze;
+  border-color: $brand-greenhaze;
+  }
+}
+.btn-brand {
+  color: $brand-white;
+  background-color: $brand-greenhaze;
+  border-color: $brand-greenhaze;
+  &:hover,
+  &:focus,
+  &:active {
+  color: $brand-white;
+  background-color: $brand-midnightblue;
+  border-color: $brand-midnightblue;
+  }
+}
+.btn-link-brand {
+	color: $brand-greenhaze;
+	background: transparent;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $brand-observatory;
+	}
+}

@@ -1,0 +1,97 @@
+/*-- resume elements
+ ------------------------------------------------------------*/
+body {
+	padding-top: 0;
+	font-size: 16px;
+}
+main, footer {
+	p {
+		margin:0;
+		line-height: 3em;
+	}
+}
+footer {
+	a {
+		color: $brand-white;
+		&:hover {
+			color: $brand-whitesmoke;
+		}
+	}
+}
+.whitesmoke {
+	text-shadow: 0 0;
+}
+aside, section {
+	box-shadow: 0 0;
+  padding-bottom: 20px;
+}
+.header {
+	p {
+		font: {
+			size: 2.2em;
+			weight: 300;
+		}
+	}
+}
+.teaser {
+	p {
+		font: {
+			size: 2.1em;
+			weight: 300;
+		}
+	}
+}
+.greenhaze {
+  background: {
+    color: $brand-greenhaze;
+  }
+  color: $brand-whitesmoke;
+  h1 {
+    color: $brand-white;
+  }
+}
+aside {
+	address {
+		margin: 0;
+	}
+}
+.list-group {
+	font-size: 15px;
+	.list-group-item {
+		background: $brand-clouds;
+		@include border-radius (0px);
+		border: 0;
+		&:nth-child(even) {
+			background: $brand-whitesmoke;
+		}
+	}
+}
+.skills {
+	padding-left: 20px;
+	p {
+		margin-bottom: 0px;
+	}
+}
+
+.social {
+  a {
+    &:hover.facebook {
+      color: #3b5998;
+    }
+    &:hover.twitter {
+      color: #00aced;
+    }
+    &:hover.linkedin {
+      color: #007bb6;
+    }
+    &:hover.instagram {
+      color: #517fa4;
+    }
+    &:hover.github {
+      color: #4183C4;
+    }
+    &:hover.behance {
+      color: #1769FF;
+    }
+  }
+}

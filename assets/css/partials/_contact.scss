@@ -1,0 +1,19 @@
+/*-- contact elements
+ ------------------------------------------------------------*/
+form {
+  margin-bottom: 48px; 
+}
+.form-group {
+  margin-bottom: 0px;
+  .help-block {
+    display: block;
+    min-height: 20px;
+    margin: 0px !important;
+    font-size: 1em !important;
+    color: $brand-alizarin;
+    ul {
+      margin-bottom: 0px;
+      list-style: none;
+    }
+  }
+}
