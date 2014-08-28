@@ -2,6 +2,17 @@
  ------------------------------------------------------------*/
 .project {
 	padding-bottom: 48px;
+	h3 {
+		border-top: 1px dotted $brand-clouds;
+		border-bottom: 1px dotted $brand-clouds;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	hr {
+		border-style: dotted;
+	}
+
 }
 .project-header {
   height: 250px;

@@ -20,4 +20,10 @@ article {
 		background-color: $brand-whitesmoke;
 		border-color: $brand-clouds;
 	}
+	h2 {
+		a:hover {
+			text-decoration: none;
+			color: $brand-greenhaze;
+		}
+	}
 }
