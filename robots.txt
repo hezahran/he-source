@@ -1,2 +1,5 @@
+# http://www.robotstxt.org/
 user-agent: *
+Crawl-delay: 1
 Sitemap: http://hezahranc.com/sitemap.xml
+Disallow:
