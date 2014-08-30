@@ -12,9 +12,10 @@ main, footer {
 }
 footer {
 	a {
-		color: $brand-white;
+		color: $brand-whitesmoke;
 		&:hover {
-			color: $brand-whitesmoke;
+			color: $brand-white;
+			text-decoration: none;
 		}
 	}
 }

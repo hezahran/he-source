@@ -17,6 +17,9 @@
     color: $brand-midnightblue;
   }
 }
+.pumpkin {
+  color: $brand-pumpkin;
+}
 .cursive {
 	font: {
 		family: $brand-cursive;
@@ -58,4 +61,19 @@
 	&:active {
 		color: $brand-observatory;
 	}
+}
+#error {
+  display: table;
+  height: 100%;
+  width: 100%;
+  background: {
+    image: url(hashem_zahran-error);
+    position: top right;
+    repeat: no-repeat;
+    size: 100%;
+  }
+  .container {
+    display:table-cell;
+    vertical-align: middle;
+  }
 }
