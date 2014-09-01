@@ -1,0 +1,10 @@
+	<!-- metadata -->
+	<title>{% if page.title %}{{ page.title  }} - {{ site.title }}{% else %}{{ site.slogan }} - {{ site.title }}{% endif %}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
+	<meta name="Language" content="en-us">
+	<meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
+	<link name="author" href="{% if page.author_link %}{{ page.author_link }}{% else %}{{ site.author_link }}{% endif %}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="alternate" type="application/rss+xml" href="{{ "/feed.xml" | prepend: site.url }}" />
+	

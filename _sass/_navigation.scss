@@ -1,0 +1,34 @@
+/*-- navigation
+ ------------------------------------------------------------*/
+.navbar-inverse {
+	font-size: 0.9em;
+	background-color: $brand-wetasphalt;
+	border-color: $brand-midnightblue;
+	.brand-nav {
+		margin: 0;
+	}
+	.navbar-brand {
+		color: $brand-whitesmoke;
+		background-color: $brand-observatory;
+		&:hover{
+			color: $brand-white;
+			background-color: $brand-greenhaze;
+		}
+	}
+	.navbar-nav {
+		li {
+			a {
+				color: $brand-silver;
+			}
+		}
+		.active {
+			a {
+				color: $brand-white;
+				background-color: $brand-midnightblue;
+				&:hover {
+					background-color: $brand-midnightblue;
+				}
+			}
+		}
+	}
+}

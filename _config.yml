@@ -1,0 +1,36 @@
+# Site settings
+title: Hashem Zahran
+email: sayhi@hezahran.com
+description: > 
+  Freelance User Experience (UX) & User Interface (UI) development consultant based in Alexandria, Egypt.
+keywords: > 
+  user interface developer, user experience designer, ui developer, ux developer, seo consultant, sem specialist, search engine marketing, search engone optimization, frontend developer, web designer
+slogan: UX & UI Developer from Alexandria, Egypt
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://hezahran.com" # the base hostname & protocol for your site
+
+
+# Source & Destination
+source: /Users/Hashem/Sites/GithubSourceCode/he-source/
+destination: /Users/Hashem/Sites/hezahran/
+
+# Permalinks & Pagination
+paginate:      5
+paginate_path: "blogs/page:num/"
+permalink:     /blogs/:categories/:title/
+relative_permalinks: false
+include: ['_pages']
+
+# Metadata
+author: Hashem Zahran
+author_link: https://plus.google.com/u/1/+HashemZahran82
+social_account: hezahran
+alexa: udOS4pl5hGhI95xOdr-y8Mwz5eY
+google_tracking_id: UA-29996802-6
+uri: hezahran.com
+og_image: /assets/img/social/fb_opg-1200x630.png
+fb_app_id: 683924591629495
+twitter_image: /assets/img/social/twt_card-480x270.png
+
+# Build settings
+markdown: kramdown

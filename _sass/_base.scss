@@ -1,0 +1,77 @@
+/*-- base
+ ------------------------------------------------------------*/
+html, body {
+ 	height: 100%;
+ 	width: 100%;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+body {
+	font: {
+		family: $brand-text;
+		size: 16px;
+		weight: 300;
+	}
+	padding: {
+		top: 50px;
+	}
+	color: $brand-wetasphalt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font: {
+		family: $brand-headings;
+		weight: 300;
+	}
+	color: $brand-greenhaze;
+}
+
+blockquote {
+	margin: {
+		bottom: 0;
+	}
+	p {
+		min-height: 115px;
+	}
+	footer {
+		background: none;
+		text-shadow: 0 0;
+		padding: 0;
+	}
+}
+section {
+	padding: {
+		bottom: 3em;
+	}
+	margin: {
+		bottom: 0;
+	}
+}
+
+a {
+	color: $brand-greenhaze;
+}
+footer {
+	padding: {
+		top: 3em;
+		bottom: 3em;
+	}
+	a {
+		color: $brand-wetasphalt;
+		&:hover {
+			color: $brand-observatory;
+		}
+	}
+	.copyright {
+		margin-top: 1.5em;
+		a {
+			color: $brand-greenhaze;
+		}
+	}
+	color: $brand-clouds;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2);
+	background: {
+		color: $brand-midnightblue;
+	}
+}

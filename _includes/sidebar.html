@@ -1,0 +1,23 @@
+<div class="col-md-4">
+        <aside>
+          <div class="page-header">
+            <h3>Categories</h3>
+            <p><small>I wrote a total of {{ site.posts | size }} posts in {{ site.categories | size }} categories.</small></p>
+          </div><!-- /.page-header -->
+          <div class="list-group">
+            <a href="/blogs/updates/" class="list-group-item">
+              <span class="badge">{{ site.categories.updates | size }}</span>
+              <i class="fa fa-fw fa-caret-right"></i> HE Updates
+            </a><!-- /.list-group-item -->
+            <a href="/blogs/hecreek/" class="list-group-item">
+              <span class="badge">{{ site.categories.hecreek | size }}</span>
+              <i class="fa fa-fw fa-caret-right"></i> HECreek
+            </a><!-- /.list-group-item -->
+            <a href="/blogs/webdev/" class="list-group-item">
+              <span class="badge">{{ site.categories.webdev | size }}</span>
+              <i class="fa fa-fw fa-caret-right"></i> Web Development
+            </a><!-- /.list-group-item -->
+          </div><!-- /.list-group -->
+          <p class="rss-subscribe"><i class="fa fa-fw fa-rss pumpkin"></i> Subscribe <a href="../feed.atom" class="pumpkin">via RSS</a>.</p>
+        </aside>
+      </div><!-- /.col-md-4 -->

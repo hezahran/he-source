@@ -1,0 +1,68 @@
+---
+layout: blogs
+blogfeed: true
+---
+{% capture readtime %}{{ page.content | number_of_words | plus:91 | divided_by:180.0 | append:'.' | split:'.' | first }}{% endcapture %}
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="page-header">
+					<h2>{{page.title}}</h2>
+					<p class="post-meta">
+						<small>
+              <i class="fa fa-fw fa-clock-o"></i> Posted on {{ page.date | date: "%b %-d, %Y" }}{% assign tagsize = page.categories.size %}{% if categoriessize != 0 %} - <i class="fa fa-fw fa-folder-open"></i> Posted in {% for categories in page.categories %}<a href="/blogs/{{ categories | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ categories }}" rel="categories">{{ categories }}</a>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} {% if readtime == '0' %} - <i class="fa fa-fw fa-file-text-o"></i> Read in &lt; 1{% else %} - <i class="fa fa-fw fa-file-text-o"></i> Read in {{ readtime }}{% endif %} min - <i class="fa fa-fw fa-comments-o"></i> <a href="#disqus_thread" data-disqus-identifier="{{ page.path | split:'/' | last | cgi_escape }}">Comments</a>
+            </small>
+					</p>
+				</div><!-- /.page-header -->
+			</div><!-- /.col-xs-12 -->
+			<div class="col-md-8 col-xs-12">
+				<article>
+					{% if page.image %}
+          <div class="post-banner">
+            <img src="/assets/img/post-banners/{{ page.image }}" alt="{{ page.title }}" class="img-responsive img-rounded" />
+          </div>
+          {% else %}
+          <div class="post-banner no-image">
+            <img src="http://placehold.it/1200x300&text=HEZahran+Blogs" alt="{{ page.title }}" class="img-responsive img-rounded" />
+          </div>
+          {% endif %}
+          {{ content }}
+				</article>
+				<div class="row">
+					<div class="col-xs-12">
+						<ul class="pager">
+							{% if page.previous %} 
+							<li class="previous">
+								<a rel="prev" href="{{page.previous.url | prepend: site.baseurl }}"><i class="fa fa-fw fa-chevron-left"></i>{{ page.previous.title }}</a>
+							</li>
+				    	{% endif %}
+				    	{% if page.next %}
+				    	<li class="next">
+				    		<a rel="next" href="{{page.next.url | prepend: site.baseurl }}">{{ page.next.title }} <i class="fa fa-fw fa-chevron-right"></i></a>
+				    	</li>
+		    		{% endif %}
+						</ul><!-- /.pager -->
+					</div><!-- /.col-xs-12 -->
+				</div><!-- /.row -->
+				<hr />
+				{% if post.comments != false %}
+				<div id="disqus_thread" class="disqus"></div>
+		    <script type="text/javascript">
+	        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+	        var disqus_shortname = 'hezahran'; // required: replace example with your forum shortname
+	        /* * * DON'T EDIT BELOW THIS LINE * * */
+	        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	        })();
+		    </script>
+		    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+				{% endif %}
+			</div><!-- /.col-md-8 col-xs-12 -->
+			{% include sidebar.html %}
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+</section>

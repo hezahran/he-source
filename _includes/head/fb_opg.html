@@ -1,0 +1,9 @@
+	<!-- facebook opengraph -->
+	<meta property="og:site_name" content="{% if page.title %}{{ page.title  }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<meta property="og:title" content="{% if page.title %}{{ page.title  }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="{% if page.og_image %}{{ page.og_image  | prepend: site.url }}{% else %}{{ site.og_image | prepend: site.url }}{% endif %}">
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="fb:app_id" content="{{ site.fb_app_id }}">
+	

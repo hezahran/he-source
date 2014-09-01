@@ -1,15 +1,60 @@
+---
+# HEZahran CSS v1.0
+---
+@charset "utf-8";
+
 /*
- HEZahran Resume CSS v1.0
+ HEZahran CSS v1.0
  ----------------------------------------------------------
 	 Copyright (c) 2014, HEZahran.com. All rights reserved.
 	 Coded and Authored with all the love in the world.
 	 Coder: Hashem Zahran @antikano || @hezahran
  ------------------------------------------------------------*/
-@import 'custom-fonts',
-				'variables',
-				'mixins',
-				'basic-styles',
-				'macyfing',
-				'scaffolding',
-				'resume-elements',
-				'progress-bars'
+
+// partials
+$brand-greenhaze: rgb(1, 152, 117);
+$brand-observatory: rgb(4, 147, 114);
+$brand-white: rgb(255, 255, 255);
+$brand-whitesmoke: rgb(245, 245, 245);
+$brand-clouds: rgb(236, 240, 241);
+$brand-silver: rgb(189, 195, 199);
+$brand-wetasphalt: rgb(52, 73, 94);
+$brand-midnightblue: rgb(44, 62, 80);
+$brand-alizarin: rgb(231, 76, 60);
+$brand-pumpkin: rgb(211, 84, 0);
+$brand-headings: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$brand-text:  'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$brand-cursive: 'Rochester', cursive;
+
+// mixins
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+       -moz-box-shadow:inset $top $left $blur $color;
+            box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+       -moz-box-shadow: $top $left $blur $color;
+            box-shadow: $top $left $blur $color;
+  }
+}
+
+// partials
+@import
+				"custom-fonts",
+        "base",
+        "scaffolding",
+        "resume-elements",
+        "syntax-highlighting"
+;

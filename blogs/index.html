@@ -1,0 +1,94 @@
+---
+layout: blogs
+title: Hello, World!
+lead: Here I blog...
+---
+{% capture readtime %}{{ page.content | number_of_words | plus:91 | divided_by:180.0 | append:'.' | split:'.' | first }}{% endcapture %}
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="page-header">
+          <h2>Hello, World!</h2>
+          <p class="lead">Here I blog</p>
+        </div><!-- /.page-header -->
+      </div><!-- /.col-xs-12 -->
+    </div><!-- /.row -->
+    <div class="row pagecontent">
+      <div class="col-md-8">
+      {% for post in paginator.posts %}
+        <article>
+          <div class="page-header">
+            <h3>
+              <span>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </span>
+            </h3>
+            {% capture readtime %}{{ page.content | number_of_words | plus:91 | divided_by:180.0 | append:'.' | split:'.' | first }}{% endcapture %}
+            <p class="post-meta">
+              <small>
+                <i class="fa fa-fw fa-clock-o"></i> Posted on {{ post.date | date: "%b %-d, %Y" }}{% assign tagsize = post.categories.size %}{% if categoriessize != 0 %} - <i class="fa fa-fw fa-folder-open"></i> Posted in {% for categories in post.categories %}<a href="/blogs/{{ categories | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ categories }}" rel="categories">{{ categories }}</a>{% unless forloop.last %}&comma;&nbsp;{% endunless %}{% endfor %}{% endif %} {% if readtime == '0' %} - <i class="fa fa-fw fa-file-text-o"></i> Read in &lt; 1{% else %} - <i class="fa fa-fw fa-file-text-o"></i> Read in {{ readtime }}{% endif %} min - <i class="fa fa-fw fa-comments-o"></i> <a href="#disqus_thread" data-disqus-identifier="{{ page.path | split:'/' | last | cgi_escape }}">Comments</a>
+              </small>
+            </p>
+          </div><!-- /.page-header -->
+          
+          {% if post.image %}
+          <div class="post-banner">
+            <img src="/assets/img/post-banners/{{ post.image }}" alt="{{ post.title }}" class="img-responsive img-rounded" />
+          </div>
+          {% else %}
+          <div class="post-banner no-image">
+            <img src="http://placehold.it/1200x300&text=HEZahran+Blogs" alt="{{ post.title }}" class="img-responsive img-rounded" />
+          </div>
+          {% endif %}
+          {{ post.excerpt }}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-brand">Read more <i class="fa fa-angle-double-right"></i></a>
+        </article>
+        <hr />
+      {% endfor %}
+      </div><!-- /.col-md-8 -->
+      {% include sidebar.html %}
+    </div><!-- /.row -->
+    <div class="row">
+      <div class="col-xs-12">
+        {% if paginator.total_pages > 1 %}
+        <ul class="pagination">
+          {% if paginator.previous_page %}
+          <li>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+            </li>
+          {% else %}
+          <li class="disabled">
+            <a>&laquo;</a>
+          </li>
+          {% endif %}
+          {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+          <li class="active">
+            <a>{{ page }}</a>
+          </li>
+          {% elsif page == 1 %}
+          <li>
+            <a href="{{ '/blogs/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+          </li>
+          {% else %}
+          <li>
+            <a href="/{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+          </li>
+          {% endif %}
+          {% endfor %}
+          {% if paginator.next_page %}
+          <li>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+          </li>
+          {% else %}
+          <li class="disabled">
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+          </li>
+          {% endif %}
+        </ul>
+        {% endif %}
+      </div><!-- /.col-xs-12 -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section>
