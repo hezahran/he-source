@@ -11,7 +11,7 @@ url: "http://hezahran.com" # the base hostname & protocol for your site
 
 
 # Source & Destination
-source: /Users/Hashem/Sites/GithubSourceCode/he-source/
+source: /Users/Hashem/Sites/GitRepos/he-source/
 destination: /Users/Hashem/Sites/hezahran/
 
 # Permalinks & Pagination
