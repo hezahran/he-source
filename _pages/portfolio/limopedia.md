@@ -15,9 +15,11 @@ project-next-url: 53wordpress
 ---
 My work with Limopedia included custom php implementation for their payment gateway plus fully transformation of PSD files into semantic HTML & CSS markup, along with setting up website SSL Certificate to negotiate securely with payment gateway.
 
-###Pages Coded###
+###Home Page###
 ![Limopedia Homepage]({{ site.baseurl }}/assets/img/portfolio/limopedia/homepage.jpg)
 
+###Pricing Page###
 ![Limopedia Pricing Page]({{ site.baseurl }}/assets/img/portfolio/limopedia/pricingpage.jpg)
 
+###Payment Page###
 ![Limopedia Payment Page]({{ site.baseurl }}/assets/img/portfolio/limopedia/paymentpage.jpg)

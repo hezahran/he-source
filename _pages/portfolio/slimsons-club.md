@@ -20,11 +20,11 @@ Losing weight has been always a challenge. As a summer project, I've created a s
 ![Slimsons Club Logo Variations]({{ site.baseurl }}/assets/img/portfolio/slimsonsclub/the_logo.png)
 
 ###The Typography###
-[![Slimson Primary Typorgraphy Pompiere Regular]({{ site.baseurl }}/assets/img/portfolio/slimsonsclub/typography_primary.png)][pompiere]
+[![Slimson Primary Typorgraphy Pompiere Regular]({{ site.baseurl }}/assets/img/portfolio/slimsonsclub/pompiere-typography_primary.png)][pompiere]
 - Font Name: **Pompiere Regular**<br />
 - Family: **Pompiere**
 
-[![Slimson Primary Typorgraphy Raleway Light]({{ site.baseurl }}/assets/img/portfolio/slimsonsclub/typography_paragraph.png)][raleway]
+[![Slimson Primary Typorgraphy Raleway Light]({{ site.baseurl }}/assets/img/portfolio/slimsonsclub/raleway-typography_paragraph.png)][raleway]
 - Font Name: **Raleway Light**<br />
 - Family: **Raleway**
 
