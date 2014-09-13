@@ -34,7 +34,7 @@ lead: Here I blog...
           
           {% if post.image %}
           <div class="post-banner">
-            <img src="/assets/img/post-banners/{{ post.image }}" alt="{{ post.title }}" class="img-responsive img-rounded" />
+            <img src="{{ post.image }}" alt="{{ post.title }}" class="img-responsive img-rounded" />
           </div>
           {% else %}
           <div class="post-banner no-image">

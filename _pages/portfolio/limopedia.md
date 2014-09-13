@@ -2,8 +2,9 @@
 layout: project
 title: Limopedia Project
 permalink: /portfolio/limopedia/
-shortdescription: Personal social media project
+shortdescription: PHP with Secure Payment Gateway
 description: A new platform that helps transportation operators from all over the world use new technology to improve communications with their clients. Limopedia solution is affordable, simple, and extremely intuitive for both customers and limousine operators.
+image: /assets/img/portfolio/limopedia/logo_display.jpg
 project-date: February 2014
 project-client: Limopedia
 project-agency: TeamFives

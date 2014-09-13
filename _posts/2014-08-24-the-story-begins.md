@@ -3,9 +3,9 @@ layout: post
 title:  "HECreek, The story begins!"
 date:   2014-08-24 16:14:29
 categories: [Hecreek, Updates]
-image: the-story-begins.png
+image: /assets/img/post-banners/the-story-begins.png
 ---
-Well since I'm a freelancer now, I decided to create a dedicated website for a new brand sole Proprietorship company to showcase my services and past work I've made during the past years.
+Well since I'm a freelancer now, I decided to create a dedicated website for a new brand sole Proprietorship company to showcase my services and past work I've made during the past years plus being a playground for new technologies I learn through out the years.
 
 I went directly to [FatWallet][fatwallet] & searched for [GoDaddy][godaddy] coupons for .com domains and after getting my coupon I went to [NameCheckr][namecheckr] to see what name could I come up with that is available on all social media accounts as well as a .com domain. and the winner was [HECreek][hecreek]... 
 

@@ -4,6 +4,7 @@ title: 53WordPress Project
 permalink: /portfolio/53wordpress/
 shortdescription: WordPress theming challenge project
 description: Awesomely unique WordPress Themes packed with advanced functionality and rapid support.
+image: /assets/img/portfolio/53wp/logo_display.jpg
 project-date: January 2014
 project-client: Personal Project
 project-service: Identity
@@ -29,16 +30,14 @@ project-next-url: mubaderon
 - Family: **Lora**
 
 ###The Colors###
-<div class="row">
-	<div class="col-md-4" style="background-color:#9bcf50; padding:1em 1em 6em; color:#fefefe">
-		<strong>#</strong>9bcf50 <br /><strong>R</strong>155 <strong>G</strong>207 <strong>B</strong>80
-	</div><!-- /.col-md-4 -->
-	<div class="col-md-4" style="background-color:#bcdb75; padding:1em 1em 6em; color:#fefefe">
-		<strong>#</strong>bcdb75 <br /><strong>R</strong>188 <strong>G</strong>219 <strong>B</strong>117
-	</div><!-- /.col-md-4 -->
-	<div class="col-md-4" style="background-color:#efefef; padding:1em 1em 6em">
-		<strong>#</strong>efefef <br /><strong>R</strong>239 <strong>G</strong>239 <strong>B</strong>239
-	</div><!-- /.col-md-4 -->
-</div><!-- /.row -->
+<div class="col-md-4" style="background-color:#9bcf50; padding:1em 1em 6em; color:#fefefe">
+	<strong>#</strong>9bcf50 <br /><strong>R</strong>155 <strong>G</strong>207 <strong>B</strong>80
+</div><!-- /.col-md-4 -->
+<div class="col-md-4" style="background-color:#bcdb75; padding:1em 1em 6em; color:#fefefe">
+	<strong>#</strong>bcdb75 <br /><strong>R</strong>188 <strong>G</strong>219 <strong>B</strong>117
+</div><!-- /.col-md-4 -->
+<div class="col-md-4" style="background-color:#efefef; padding:1em 1em 6em">
+	<strong>#</strong>efefef <br /><strong>R</strong>239 <strong>G</strong>239 <strong>B</strong>239
+</div><!-- /.col-md-4 -->
 
 [lora]: https://www.google.com/fonts/specimen/Lora

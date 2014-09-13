@@ -4,6 +4,7 @@ title: VoicedHQ Project
 permalink: /portfolio/voicedhq/
 shortdescription: Give Your Users A Voice
 description: Voice is still one of the most convenient communication mediums to date, natural to most people and is great for one-to-one communication. We believe feedback is better said than typed.
+image: /assets/img/portfolio/voicedhq/logo_display.jpg
 project-date: September 2013
 project-client: VoicedHQ
 project-agency: Tabshora
@@ -29,20 +30,18 @@ project-prev-url: mubaderon
 - Family: **Montserrat**
 
 ###The Colors###
-<div class="row">
-	<div class="col-md-3" style="background-color:#53bb81; padding:1em 1em 6em; color:#fefefe">
-		<strong>#</strong>53bb81 <br /><strong>R</strong>83 <strong>G</strong>187 <strong>B</strong>129
-	</div><!-- /.col-md-3 -->
-	<div class="col-md-3" style="background-color:#d9525e; padding:1em 1em 6em; color:#fefefe">
-		<strong>#</strong>d9525e <br /><strong>R</strong>217 <strong>G</strong>82 <strong>B</strong>94
-	</div><!-- /.col-md-3 -->
-	<div class="col-md-3" style="background-color:#858585; padding:1em 1em 6em; color:#fefefe">
-		<strong>#</strong>858585 <br /><strong>R</strong>133 <strong>G</strong>133 <strong>B</strong>133
-	</div><!-- /.col-md-3 -->
-	<div class="col-md-3" style="background-color:#f3f5f7; padding:1em 1em 6em">
-		<strong>#</strong>f3f5f7 <br /><strong>R</strong>243 <strong>G</strong>245 <strong>B</strong>247
-	</div><!-- /.col-md-3 -->
-</div><!-- /.row -->
+<div class="col-md-3" style="background-color:#53bb81; padding:1em 1em 6em; color:#fefefe">
+	<strong>#</strong>53bb81 <br /><strong>R</strong>83 <strong>G</strong>187 <strong>B</strong>129
+</div><!-- /.col-md-3 -->
+<div class="col-md-3" style="background-color:#d9525e; padding:1em 1em 6em; color:#fefefe">
+	<strong>#</strong>d9525e <br /><strong>R</strong>217 <strong>G</strong>82 <strong>B</strong>94
+</div><!-- /.col-md-3 -->
+<div class="col-md-3" style="background-color:#858585; padding:1em 1em 6em; color:#fefefe">
+	<strong>#</strong>858585 <br /><strong>R</strong>133 <strong>G</strong>133 <strong>B</strong>133
+</div><!-- /.col-md-3 -->
+<div class="col-md-3" style="background-color:#f3f5f7; padding:1em 1em 6em">
+	<strong>#</strong>f3f5f7 <br /><strong>R</strong>243 <strong>G</strong>245 <strong>B</strong>247
+</div><!-- /.col-md-3 -->
 
 [dosis]: https://www.google.com/fonts/specimen/Dosis
 [montserrat]: http://www.google.com/fonts/specimen/Montserrat

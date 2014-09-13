@@ -3,7 +3,7 @@ layout: post
 title:  "Blogging with Jekyll"
 date:   2014-08-23 09:54:00
 categories: [Updates,Webdev]
-image: blogging-with-jekyll.png
+image: /assets/img/post-banners/blogging-with-jekyll.png
 ---
 I've been trying new technologies every now and then. I've been a big fan of [RoR][ror] since few years now but never tried to create an application with it... This time I tried to create and host my own personal website on [GitHub Pages][ghpages] and make a good use of my no longer used [github account][ghaccount]...
 

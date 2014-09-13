@@ -20,7 +20,7 @@ blogfeed: true
 				<article>
 					{% if page.image %}
           <div class="post-banner">
-            <img src="/assets/img/post-banners/{{ page.image }}" alt="{{ page.title }}" class="img-responsive img-rounded" />
+            <img src="{{ page.image }}" alt="{{ page.title }}" class="img-responsive img-rounded" />
           </div>
           {% else %}
           <div class="post-banner no-image">
@@ -29,6 +29,13 @@ blogfeed: true
           {% endif %}
           {{ content }}
 				</article>
+				<hr />
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="addthis_native_toolbox"></div>
+					</div><!-- /.col-xs-12 -->
+				</div><!-- /.row -->
+				<hr />
 				<div class="row">
 					<div class="col-xs-12">
 						<ul class="pager">
@@ -45,14 +52,7 @@ blogfeed: true
 						</ul><!-- /.pager -->
 					</div><!-- /.col-xs-12 -->
 				</div><!-- /.row -->
-				<hr />
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="fb-like" data-href="{{page.url | prepend: site.url }}" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
-						<div style="display:inline-block"><a href="https://twitter.com/share" class="twitter-share-button" data-via="hezahran">Tweet</a></div>
-						
-					</div><!-- /.col-xs-12 -->
-				</div><!-- /.row -->
+				
 				
 				<hr />
 				{% if post.comments != false %}

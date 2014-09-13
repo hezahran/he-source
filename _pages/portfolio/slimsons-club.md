@@ -4,6 +4,7 @@ title: Slimsons Club Project
 permalink: /portfolio/slimsons-club/
 shortdescription: Personal social media project
 description: Slimsons Club is a community of Alexandrian Healthy Food Enthusiasts &amp; Weight Loss Evangelists in their journey to promote Healthy Eating Habits.
+image: /assets/img/portfolio/slimsonsclub/logo_display.jpg
 project-date: June 2014
 project-client: Personal Project
 project-service: Identity
@@ -29,20 +30,18 @@ Losing weight has been always a challenge. As a summer project, I've created a s
 - Family: **Raleway**
 
 ###The Colors###
-<div class="row">
-	<div class="col-md-3" style="background-color:#75b4aa; padding:1em 1em 6em; color:#fefefe">
-		<strong>#</strong>75b4aa <br /><strong>R</strong>117 <strong>G</strong>180 <strong>B</strong>170
-	</div><!-- /.col-md-3 -->
-	<div class="col-md-3" style="background-color:#6daa9f; padding:1em 1em 6em; color:#fefefe">
-		<strong>#</strong>6daa9f <br /><strong>R</strong>109 <strong>G</strong>170 <strong>B</strong>159
-	</div><!-- /.col-md-3 -->
-	<div class="col-md-3" style="background-color:#f4f5f5; padding:1em 1em 6em;">
-		<strong>#</strong>f5f5f5 <br /><strong>R</strong>245 <strong>G</strong>245 <strong>B</strong>245
-	</div><!-- /.col-md-3 -->
-	<div class="col-md-3" style="background-color:#eaeaea; padding:1em 1em 6em;">
-		<strong>#</strong>eaeaea <br /><strong>R</strong>234 <strong>G</strong>234 <strong>B</strong>234
-	</div><!-- /.col-md-3 -->
-</div><!-- /.row -->
+<div class="col-md-3" style="background-color:#75b4aa; padding:1em 1em 6em; color:#fefefe">
+	<strong>#</strong>75b4aa <br /><strong>R</strong>117 <strong>G</strong>180 <strong>B</strong>170
+</div><!-- /.col-md-3 -->
+<div class="col-md-3" style="background-color:#6daa9f; padding:1em 1em 6em; color:#fefefe">
+	<strong>#</strong>6daa9f <br /><strong>R</strong>109 <strong>G</strong>170 <strong>B</strong>159
+</div><!-- /.col-md-3 -->
+<div class="col-md-3" style="background-color:#f4f5f5; padding:1em 1em 6em;">
+	<strong>#</strong>f5f5f5 <br /><strong>R</strong>245 <strong>G</strong>245 <strong>B</strong>245
+</div><!-- /.col-md-3 -->
+<div class="col-md-3" style="background-color:#eaeaea; padding:1em 1em 6em;">
+	<strong>#</strong>eaeaea <br /><strong>R</strong>234 <strong>G</strong>234 <strong>B</strong>234
+</div><!-- /.col-md-3 -->
 
 [pompiere]: 	https://www.google.com/fonts/specimen/Pompiere
 [raleway]: 	https://www.google.com/fonts/specimen/Raleway
