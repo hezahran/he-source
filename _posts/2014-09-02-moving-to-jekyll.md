@@ -3,7 +3,7 @@ layout: post
 title:  "Moving to Jekyll!"
 date:   2014-09-02 11:05:30
 categories: [Updates]
-image: /assets/img/post-banners/moving-to-jekyll.png
+image: moving-to-jekyll.png
 description: Migrating personal site output to Jekyll from Hammer for Mac
 keywords: jekyll, hammer for mac, codekit
 ---

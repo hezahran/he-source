@@ -5,7 +5,7 @@ date:   2014-08-25 12:30:43
 categories: [Hecreek, Webdev]
 description: Installing Jekyll and Creating Github pages for organization account
 keywords: jekyll, github pages
-image: /assets/img/post-banners/hecreek-day-one.png
+image: hecreek-day-one.png
 ---
 Everyday I like to explore new technologies and new tools that help me introduce the most creative and original ideas for my customers. As promised in my last post, I'll blog my daily updates about [HECreek][hecreek] development process in tutorial like posts and also as a documentation to my process... 
 

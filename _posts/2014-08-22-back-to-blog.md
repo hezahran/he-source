@@ -3,7 +3,7 @@ layout: post
 title:  "Back to Blog!"
 date:   2014-08-22 20:00:00
 categories: [Updates]
-image: /assets/img/post-banners/back-to-blog.png
+image: back-to-blog.png
 ---
 It’s been a long time since I’ve blogged anything online… Recently, I’ve been extremely busy getting out of my bubble and was looking for a new adventure, and finally managed to create my new next big thing…
 
