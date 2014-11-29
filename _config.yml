@@ -2,7 +2,7 @@
 title: Hashem Zahran
 email: sayhi@hezahran.com
 description: > 
-  Freelance User Experience (UX) & User Interface (UI) development consultant based in Alexandria, Egypt.
+  Freelance User Interface (UI) & User Experience (UX) development consultant based in Alexandria, Egypt.
 keywords: > 
   user interface developer, user experience designer, ui developer, ux developer, seo consultant, sem specialist, search engine marketing, search engone optimization, frontend developer, web designer
 slogan: UX & UI Developer from Alexandria, Egypt
@@ -10,8 +10,8 @@ baseurl: ""
 url: "http://hezahran.com"
 
 # Source & Destination
-source: /Users/Hashem/Sites/GitRepos/he-source/
-destination: /Users/Hashem/Sites/hezahran/
+source: /Users/Hashem/Sites/hezahran/SourceCode/
+destination: /Users/Hashem/Sites/hezahran/Build/
 
 # Permalinks & Pagination
 paginate: 5
